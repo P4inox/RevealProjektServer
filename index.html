@@ -12,6 +12,7 @@
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="reveal.js/lib/css/zenburn.css">
+    <link rel="stylesheet" href="data/css/font-awesome.min.css">
 
 </head>
 <body>
@@ -61,28 +62,34 @@
             <section>
                 <h5 class="title-min" style="margin-bottom: 50px">Aufgabe & Projekt - Idee</h5>
                 <ul style="list-style: none">
-                    <li><img src="data/img/Assets/linux_ubuntu_icon_0.ico"
-                             style="width: 40px;height: 40px;border: none;margin: 0px;background: none;box-shadow: none;">
-                        Ubuntu
+                    <li><!--img src="data/img/Assets/linux_ubuntu_icon_0.ico"
+                             style="width: 40px;height: 40px;border: none;margin: 0px;background: none;box-shadow: none;"-->
+                             <pre><i class="fa fa-linux" aria-hidden="true" style="color: darkgray;"></i><span style="font-size: 0.4em"> </span>  Ubuntu</pre>
                     </li>
-                    <li><img src="data/img/Assets/web_icon.png"
-                             style="width: 40px;height: 40px;border: none;margin: 0px;background: none;box-shadow: none;">
-                        Webserver
+                    <li><!--img src="data/img/Assets/web_icon.png"
+                    style="width: 40px;height: 40px;border: none;margin: 0px;background: none;box-shadow: none;"-->
+                             <pre><i class="fa fa-globe" aria-hidden="true" style="color: darkgray;"></i><span style="font-size: 0.4em"> </span>  Webserver</pre>
                     </li>
-                    <li><img src="data/img/Assets/folder_icon.png"
-                             style="width: 40px;height: 40px;border: none;margin: 0px;background: none;box-shadow: none;">
-                        Fileserver
+                    <li><!--img src="data/img/Assets/folder_icon.png"
+                             style="width: 40px;height: 40px;border: none;margin: 0px;background: none;box-shadow: none;"-->
+                             <pre><i class="fa fa-folder-open" aria-hidden="true" style="color: darkgray;"></i>  Fileserver</pre>
                     </li>
-                    <li><img src="data/img/Assets/databases-icon-png-3.png"
-                             style="width: 40px;height: 40px;border: none;margin: 0px;background: none;box-shadow: none;">
-                        Mysql Server
+                    <li><!--img src="data/img/Assets/databases-icon-png-3.png"
+                             style="width: 40px;height: 40px;border: none;margin: 0px;background: none;box-shadow: none;"-->
+                             <pre><i class="fa fa-server" aria-hidden="true" style="color: darkgray;"></i><span style="font-size: 0.3em"> </span>  Mysql Server</pre>
                     </li>
-                    <li><img src="data/img/Assets/gaming_icon.png"
-                             style="width: 40px;height: 40px;border: none;margin: 0px;background: none;box-shadow: none;">
-                        + <img src="data/img/Assets/microphone_icon.png"
-                               style="width: 40px;height: 40px;border: none;margin: 0px;background: none;box-shadow: none;">
-                        Game/Voice Server
+                    <li><!--img src="data/img/Assets/gaming_icon.png"
+                             style="width: 40px;height: 40px;border: none;margin: 0px;background: none;box-shadow: none;"-->
+                            <pre><i class="fa fa-gamepad" aria-hidden="true" style="color: darkgray;"></i>  Game Server</pre>
+                              <!--img src="data/img/Assets/microphone_icon.png"
+                               style="width: 40px;height: 40px;border: none;margin: 0px;background: none;box-shadow: none;"-->
                     </li>
+                    <li><!--img src="data/img/Assets/gaming_icon.png"
+                        style="width: 40px;height: 40px;border: none;margin: 0px;background: none;box-shadow: none;"-->
+                        <pre><span style="font-size: 0.3em"> </span><i class="fa fa-microphone" aria-hidden="true" style="color: darkgray;"></i><span style="font-size: 0.5em"> </span>  Voice Server</pre>
+                         <!--img src="data/img/Assets/microphone_icon.png"
+                          style="width: 40px;height: 40px;border: none;margin: 0px;background: none;box-shadow: none;"-->
+               </li>
                 </ul>
             </section>
 
@@ -289,13 +296,13 @@
                                                                      style=" border-radius: 5px;background-color: rgba(179, 179, 179, 0.3);">wget http://dl.4players.de/ts/releases/3.4.0/teamspeak3-server_linux_amd64-3.4.0.tar.bz2
 </code></pre>
                     <p style="margin-bottom: -20px; font-size: 35px">Entpacken und Removen</p>
-                    <pre style="margin-left: 0px;width: 355px"><code class="nohighlight"
+                    <pre style="margin-left: 0px;width: 405px"><code class="nohighlight"
                                                                      style=" border-radius: 5px;background-color: rgba(179, 179, 179, 0.3);">:^$ tar xjf [TEAMSPEAK.tar.bz2]</code></pre>
                     </p>
-                    <pre style="margin-left: 0px;width: 295px"><code class="nohighlight"
+                    <pre style="margin-left: 0px;width: 340px"><code class="nohighlight"
                                                                      style=" border-radius: 5px;background-color: rgba(179, 179, 179, 0.3);">:^$ rm [TEAMSPEAK.tar.bz2]</code></pre>
                     <p style="margin-bottom: -20px; font-size: 35px">ts3 User Rechte geben</p>
-                    <pre style="margin-left: 0px;width: 470px"><code class="nohighlight"
+                    <pre style="margin-left: 0px;width: 400px"><code class="nohighlight"
                                                                      style=" border-radius: 5px;background-color: rgba(179, 179, 179, 0.3);">:^$ chown -R ts3:ts3 /home/ts3</code></pre>
                     <p style="margin-bottom: -20px; font-size: 35px">Starten</p>
                     <pre style="margin-left: 0px;width: 750px"><code class="nohighlight"
