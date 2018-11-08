@@ -14,3 +14,7 @@ hr {
 .reveal .progress {
     height: 10px;   
 }
+
+.reveal .pre {
+    font-family: inherit;   
+}
