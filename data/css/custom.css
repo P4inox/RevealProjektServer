@@ -19,3 +19,7 @@ hr {
 .reveal pre {
     font-family: inherit;   
 }
+
+.reveal .controls .controls-arrow {
+    color: white;
+}
